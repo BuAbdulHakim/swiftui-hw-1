@@ -122,16 +122,17 @@ struct SwiftUI_Calculator: View {
                 HStack{
                     Text("0")
                         .padding()
-                        .frame(width: 80, height: 80)
+                        .frame(width: 170, height: 80)
                         .foregroundColor(.white)
                         .background(Color.gray)
-                        .cornerRadius(40)
+                        .cornerRadius(50)
                     
-                    Text(".")
+                    /*Text(".")
                         .frame(width: 80, height: 80)
                         .foregroundColor(.white)
                         .background(Color.gray)
                         .cornerRadius(40)
+                     */
  
                     Text(".")
                         .frame(width: 80, height: 80)
