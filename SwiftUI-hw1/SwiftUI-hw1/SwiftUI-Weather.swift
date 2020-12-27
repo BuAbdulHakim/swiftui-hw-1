@@ -10,7 +10,12 @@ import SwiftUI
 struct SwiftUI_Weather: View {
     var body: some View {
         ZStack{
-            Color(#colorLiteral(red: 0.454851687, green: 0.4473682046, blue: 0.9532796741, alpha: 1)).edgesIgnoringSafeArea(.all)
+            Image("bg")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+
+            //Color(#colorLiteral(red: 0.454851687, green: 0.4473682046, blue: 0.9532796741, alpha: 1)).edgesIgnoringSafeArea(.all)
             //Color.black.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack{
                 Text("Mishrif")
