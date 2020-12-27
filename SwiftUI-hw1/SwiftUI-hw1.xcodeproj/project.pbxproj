@@ -12,6 +12,7 @@
 		52F4E7A325988A2000278BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F4E7A225988A2000278BFF /* Assets.xcassets */; };
 		52F4E7A625988A2000278BFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F4E7A525988A2000278BFF /* Preview Assets.xcassets */; };
 		52F4E7B0259894BE00278BFF /* SwiftUI-Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4E7AF259894BE00278BFF /* SwiftUI-Calculator.swift */; };
+		52F4E7B32598F50C00278BFF /* SwiftUI-Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4E7B22598F50C00278BFF /* SwiftUI-Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		52F4E7A525988A2000278BFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52F4E7A725988A2000278BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52F4E7AF259894BE00278BFF /* SwiftUI-Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI-Calculator.swift"; sourceTree = "<group>"; };
+		52F4E7B22598F50C00278BFF /* SwiftUI-Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI-Weather.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				52F4E79E25988A1E00278BFF /* SwiftUI_hw1App.swift */,
 				52F4E7A025988A1E00278BFF /* ContentView.swift */,
 				52F4E7AF259894BE00278BFF /* SwiftUI-Calculator.swift */,
+				52F4E7B22598F50C00278BFF /* SwiftUI-Weather.swift */,
 				52F4E7A225988A2000278BFF /* Assets.xcassets */,
 				52F4E7A725988A2000278BFF /* Info.plist */,
 				52F4E7A425988A2000278BFF /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F4E7B32598F50C00278BFF /* SwiftUI-Weather.swift in Sources */,
 				52F4E7A125988A1E00278BFF /* ContentView.swift in Sources */,
 				52F4E79F25988A1E00278BFF /* SwiftUI_hw1App.swift in Sources */,
 				52F4E7B0259894BE00278BFF /* SwiftUI-Calculator.swift in Sources */,
